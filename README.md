@@ -1,7 +1,7 @@
 # Description
 
 This example aims to show a basic example on *how to integrate the map library
-"leaflet"*.
+"leaflet"* along with some basic functionality like markers.
 
 Additionally, since we will be using React, we will add a second
 *library called "react-leaflet"*, which simply wraps "leaflet" extending its
