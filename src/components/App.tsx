@@ -1,5 +1,6 @@
 import MapFeatures from "../examples/MapFeatures.tsx";
 import MapFeaturesII from "../examples/MapFeaturesII.tsx";
+import MapFeaturesIII from "../examples/MapFeaturesIII.tsx";
 
 export default function App() {
     return <div className={`
@@ -11,5 +12,6 @@ export default function App() {
     >
         <MapFeatures/>
         <MapFeaturesII/>
+        <MapFeaturesIII/>
     </div>;
 }
