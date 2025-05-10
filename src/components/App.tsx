@@ -1,10 +1,15 @@
 import MapFeatures from "../examples/MapFeatures.tsx";
+import MapFeaturesII from "../examples/MapFeaturesII.tsx";
 
 export default function App() {
     return <div className={`
         w-full
         h-fit
-        flex items-center justify-center
+        bg-blue-200
+        flex flex-col items-center justify-center gap-1
     `}
-    ><MapFeatures/></div>;
+    >
+        <MapFeatures/>
+        <MapFeaturesII/>
+    </div>;
 }
